@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #121212;
+  color: #eaeaea;
+}
+
+header {
+  text-align: center;
+  padding: 40px;
+  background-color: #1f1f1f;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3em;
+  color: #ff9aa2;
+}
+
+.subtitle {
+  font-size: 1.2em;
+  margin-top: 10px;
+  color: #fbc4ab;
+}
+
+.section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  color: #ffc8dd;
+  margin-bottom: 30px;
+}
+
+.cards, .options-grid, .lessons-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card, .option, .note {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(255, 105, 180, 0.2);
+  width: 250px;
+  font-size: 1em;
+  transition: transform 0.3s ease;
+}
+
+.card:hover, .option:hover, .note:hover {
+  transform: scale(1.05);
+  background-color: #2a2a2a;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 1.4em;
+  margin: 20px auto;
+  max-width: 600px;
+  color: #fadadd;
+}
+
+img {
+  margin-top: 20px;
+  width: 90%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(255, 192, 203, 0.2);
+}
+
+footer {
+  background-color: #1f1f1f;
+  text-align: center;
+  padding: 30px;
+  color: #aaa;
+  font-size: 0.9em;
+}
